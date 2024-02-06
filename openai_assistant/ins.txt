@@ -1,0 +1,70 @@
+Start by checking '2csv_ETL.ipynb' and if the information is not found, proceed to 'apitomysql_ETL' and then 'app.py' and then 'assignment_ETL.ipynb' and then 'clan_ETL.ipynb' and then 'DataFrame_ETL.ipynb' and then 'etl_1.py' and then 'ETL_crowdfunding.ipynb' and then 'etl_googlesheet.py' and then 'ETL_imdb.ipynb' and then 'etl-latest.ipynb' and then 'etl_runtime_analysis.ipynb' and then 'ETL_telecom.ipynb' and then 'PySpark_ETL.py' and then 'spark_etl.py'
+
+Read the contents of the files provide details if available.
+
+
+2csv_ETL.ipynb
+work:-In this code Extraction from 2 CSV files then save it into dataframe after load into postgresql server
+
+apitomysql_ETL.ipynb
+work: - Data Collection and Transformation from API, Data Ingestion into MySQL Database
+
+app.py file
+work: - The provided Python script is designed for data extraction, transformation, and loading (ETL) operations on a MySQL database. The script is divided into three main functions
+	1. Extraction Function (extract_data):
+	2. Transformation Function (transform_data):
+	3. Loading Function (load_data):
+
+assignment_ETL.ipynb
+work:- Run the ETL process, Extract bank and market cap data from the JSON file, Transform the market cap currency using the exchange rate data, Load the transformed data into a seperate CSV
+
+clan_ETL.ipynb file
+work:- Data Cleanup and Analysis Code
+
+DataFrame_ETL.ipynb file
+work:- Extract CSVs into DataFrame, Transform DataFrames, Load DataFrames into Database, Confirm data has been added by querying the Top150 table
+	   
+etl_1.py file 
+work:- This Python script leverages PySpark to perform ETL (Extract, Transform, Load) operations on data processing, storing the results in a specified output location, likely an AWS S3 bucket
+	1. Configuration and Environment Setup:
+	2. Spark Session Initialization:
+	3. Data Processing (process_song_data):
+	4. Log Data Processing (process_log_data):
+	5. Main Function (main):
+	6. Script Execution (`if name == "main":):
+
+ETL_crowdfunding.ipynb
+work:- Import the file into a DataFrame, Iterate through the DataFrame and convert each row to a dictionary, Iterate through each dictionary and do the following, Extract the dictionary values from the keys using Python list comprehension, Add the values for each row to a new list. Create a new DataFrame with the retrieved data.Export the DataFrame.Transform and Clean Data.Check the data types of the columns and convert column to an integer.Split columns in the DataFrame. 
+Drop the column in the DataFrame.
+
+etl_googlesheet.py
+work:-  Python file implements an ETL job using pandas for data manipulation and the Google Sheets API v4 for writing results to a Google Sheet
+
+ETL_imdb.ipynb
+work:- Pandas for Data Clean-up, Import SQL-Alchemy for SQL-Lite Data Load, Create Engine & Connection to SQL Lite DB, Create Template and Load Data from Python to SQL Lite DB
+
+etl-latest.ipynb file
+work:- ETL process for each of tables before completing load the whole datasets.
+
+etl_runtime_analysis.ipynb
+work:- ETL Pipeline and SQL, Clean and transform its fields, Load the processed data into a database
+	   
+ETL_telecom.ipynb
+work:- Create SparkSession,Loading the datasets, Spark SQL
+	
+PySpark_ETL.py
+work:- The given Python code defines a PySpark_ETL class for ETL operations using PySpark and MySQL. It initializes a Spark session, reads data from an IBM AS/400 database, executes a SQL query, and writes the result to a MySQL table. Key methods include DB_reader for data reading, Query_Executer for executing a SQL query, and Query_Writer for writing data to MySQL.
+
+spark_etl.py file
+work:- This Python script is a Spark ETL (Extract, Transform, Load) pipeline for processing and analyzing data. the PySpark library for working with large-scale distributed data processing.
+Spark Session Setup, Data Loading Functions, Data Cleaning Function, UDF (User-Defined Function) for Column, Data Transformation Functions, Main Execution Block, Logging and Validation Functions:
+
+
+
+
+
+
+
+
+
+
